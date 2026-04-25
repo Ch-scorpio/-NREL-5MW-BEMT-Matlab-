@@ -13,3 +13,5 @@
 1. 该代码中可能存在错误，程序**仅供学习参考**。
 2. `.mat` 文件中的数据详见《Definition of a 5-MW Reference Wind Turbine for Offshore System Development》中的附录 B。
 3. 代码编写技术有限，编写时使用了 AI 辅助。
+
+4月25日修改了BEMT.m中关于dQ公式的错误。
