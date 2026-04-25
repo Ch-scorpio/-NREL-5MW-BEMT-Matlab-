@@ -220,7 +220,7 @@ for i = 1:N_v
         %V_rel = Vinf * (1 - a) / sin(phi); %相对速度
         q_rel = 0.5 * air.rho * (Vinf * (1 - a) / sin(phi))^2;
         dT(j) = q_rel * prop.B * c * Cn;
-        dQ(j) = q_rel * prop.B * c * Ct * r / (cos(phi)*(1-a));
+        dQ(j) = q_rel * prop.B * c * Ct * r ;
     end
     
     % 8. 对展向进行积分求总推力和总功率
